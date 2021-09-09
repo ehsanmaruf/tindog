@@ -1,0 +1,94 @@
+#title{
+  background-color: #5a828a;
+  font-family: 'Kaisei HarunoUmi', serif;
+  line-height: 1.5;
+}
+
+.container{
+  padding: 3% 15% 8%;
+}
+
+.title-img{
+  padding: 2rem;
+  width: 60%;
+  transform: rotate(25deg);
+}
+
+#features{
+  text-align: center;
+  padding: 6rem;
+  background-color: #ebf1f2;
+  font-family: 'Kaisei HarunoUmi', serif;
+  line-height: 1.5;
+}
+
+.icon{
+  color: #5a828a;
+  margin-bottom: 1rem;
+}
+
+.icon:hover{
+  color: #30a8ba;
+}
+
+/* TESTIMONIAL SECTION */
+#testimonials{
+  text-align: center;
+  background-color: #5a828a;
+  font-family: 'Kaisei HarunoUmi', serif;
+}
+
+.doggo-img{
+  width: 20%;
+  border-radius: 100%;
+}
+
+#press{
+  text-align: center;
+  background-color: #5a828a;
+  font-family: 'Kaisei HarunoUmi', serif;
+  padding-bottom: 3%;
+}
+
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.carousel-item{
+  padding: 3rem;
+}
+
+#pricing{
+  padding: 100px;
+  text-align: center;
+  background-color: #ebf1f2;
+}
+
+@media (max-width: 1028px){
+  #title{
+    text-align: center;
+  }
+  .title-img{
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+#cta{
+  background-color: #5a828a;
+  font-family: 'Kaisei HarunoUmi', serif;
+  line-height: 1.5;
+  text-align: center;
+  padding: 8rem;
+}
+
+#footer{
+  background-color: #ebf1f2;
+  padding: 5% 10%;
+  text-align: center;
+}
+
+.social-icon{
+  margin: 20px 10px;
+}
